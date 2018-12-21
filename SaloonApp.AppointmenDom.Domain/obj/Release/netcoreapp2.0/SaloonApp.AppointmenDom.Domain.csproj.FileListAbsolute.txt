@@ -1,0 +1,15 @@
+D:\C#.Solutions\SaloonApp\SaloonApp.AppointmenDom.Domain\bin\Release\netcoreapp2.0\SaloonApp.AppointmenDom.Domain.deps.json
+D:\C#.Solutions\SaloonApp\SaloonApp.AppointmenDom.Domain\bin\Release\netcoreapp2.0\SaloonApp.AppointmenDom.Domain.dll
+D:\C#.Solutions\SaloonApp\SaloonApp.AppointmenDom.Domain\bin\Release\netcoreapp2.0\SaloonApp.AppointmenDom.Domain.pdb
+D:\C#.Solutions\SaloonApp\SaloonApp.AppointmenDom.Domain\bin\Release\netcoreapp2.0\SaloonApp.Common.dll
+D:\C#.Solutions\SaloonApp\SaloonApp.AppointmenDom.Domain\bin\Release\netcoreapp2.0\SaloonApp.UserDom.Domain.dll
+D:\C#.Solutions\SaloonApp\SaloonApp.AppointmenDom.Domain\bin\Release\netcoreapp2.0\SaloonApp.UserDom.Domain.pdb
+D:\C#.Solutions\SaloonApp\SaloonApp.AppointmenDom.Domain\bin\Release\netcoreapp2.0\SaloonApp.Common.pdb
+D:\C#.Solutions\SaloonApp\SaloonApp.AppointmenDom.Domain\obj\Release\netcoreapp2.0\SaloonApp.AppointmenDom.Domain.csprojResolveAssemblyReference.cache
+D:\C#.Solutions\SaloonApp\SaloonApp.AppointmenDom.Domain\obj\Release\netcoreapp2.0\SaloonApp.AppointmenDom.Domain.csproj.CoreCompileInputs.cache
+D:\C#.Solutions\SaloonApp\SaloonApp.AppointmenDom.Domain\obj\Release\netcoreapp2.0\SaloonApp.AppointmenDom.Domain.AssemblyInfoInputs.cache
+D:\C#.Solutions\SaloonApp\SaloonApp.AppointmenDom.Domain\obj\Release\netcoreapp2.0\SaloonApp.AppointmenDom.Domain.AssemblyInfo.cs
+D:\C#.Solutions\SaloonApp\SaloonApp.AppointmenDom.Domain\obj\Release\netcoreapp2.0\SaloonApp.AppointmenDom.Domain.dll
+D:\C#.Solutions\SaloonApp\SaloonApp.AppointmenDom.Domain\obj\Release\netcoreapp2.0\SaloonApp.AppointmenDom.Domain.pdb
+D:\C#.Solutions\SaloonApp\SaloonApp.AppointmenDom.Domain\bin\Release\netcoreapp2.0\SaloonApp.UDF.Domain.dll
+D:\C#.Solutions\SaloonApp\SaloonApp.AppointmenDom.Domain\bin\Release\netcoreapp2.0\SaloonApp.UDF.Domain.pdb

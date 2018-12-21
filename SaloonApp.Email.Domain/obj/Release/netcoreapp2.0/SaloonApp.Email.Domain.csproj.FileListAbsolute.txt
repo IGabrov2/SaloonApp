@@ -1,0 +1,9 @@
+D:\C#.Solutions\SaloonApp\SaloonApp.Email.Domain\bin\Release\netcoreapp2.0\SaloonApp.Email.Domain.deps.json
+D:\C#.Solutions\SaloonApp\SaloonApp.Email.Domain\bin\Release\netcoreapp2.0\SaloonApp.Email.Domain.dll
+D:\C#.Solutions\SaloonApp\SaloonApp.Email.Domain\bin\Release\netcoreapp2.0\SaloonApp.Email.Domain.pdb
+D:\C#.Solutions\SaloonApp\SaloonApp.Email.Domain\obj\Release\netcoreapp2.0\SaloonApp.Email.Domain.csprojResolveAssemblyReference.cache
+D:\C#.Solutions\SaloonApp\SaloonApp.Email.Domain\obj\Release\netcoreapp2.0\SaloonApp.Email.Domain.csproj.CoreCompileInputs.cache
+D:\C#.Solutions\SaloonApp\SaloonApp.Email.Domain\obj\Release\netcoreapp2.0\SaloonApp.Email.Domain.AssemblyInfoInputs.cache
+D:\C#.Solutions\SaloonApp\SaloonApp.Email.Domain\obj\Release\netcoreapp2.0\SaloonApp.Email.Domain.AssemblyInfo.cs
+D:\C#.Solutions\SaloonApp\SaloonApp.Email.Domain\obj\Release\netcoreapp2.0\SaloonApp.Email.Domain.dll
+D:\C#.Solutions\SaloonApp\SaloonApp.Email.Domain\obj\Release\netcoreapp2.0\SaloonApp.Email.Domain.pdb

@@ -1,0 +1,138 @@
+﻿@model SaloonApp.DTOs.CreateAppointmentEntry
+@{
+    ViewData["Title"] = "CreateAppointmentNew";
+}
+
+<h2>Create Appointment</h2>
+
+<h4>@Model.Date.Day/@Model.Date.Month/@Model.Date.Year</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CreateAppointmentFromUser">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                @for (int i = 0; i < Model.Hours.Count; i++)
+                {
+                    <span class="btn" style="background-color:#222222; border-radius:20px; margin-bottom:5px;color:#fff">
+                        @Html.RadioButtonFor(model => model.SelectedHour, Model.Hours[i] + " " + Model.Date.Date)
+                        @Model.Hours[i]
+                    </span>
+                }
+
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Male" /> @Html.DisplayNameFor(model => model.Male)
+                    </label>
+                </div>
+            </div>
+
+            @if (Model.UDFs.AppointmentUDFChek1Enabled)
+            {
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label style="margin-left:0px">
+                            <input asp-for="@Model.AppointmentUDFs.AppointmentUDF1Checked" /> @Model.UDFs.AppointmentUDFChek1Label
+                        </label>
+                    </div>
+                </div>
+            }
+            @if (Model.UDFs.AppointmentUDFChek2Enabled)
+            {
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label style="margin-left:0px">
+                            <input asp-for="@Model.AppointmentUDFs.AppointmentUDF2Checked" /> @Model.UDFs.AppointmentUDFChek2Label
+                        </label>
+                    </div>
+                </div>
+            }
+            @if (Model.UDFs.AppointmentUDFChek3Enabled)
+            {
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label style="margin-left:0px">
+                            <input asp-for="@Model.AppointmentUDFs.AppointmentUDF3Checked" /> @Model.UDFs.AppointmentUDFChek3Label
+                        </label>
+                    </div>
+                </div>
+            }
+            @if (Model.UDFs.AppointmentUDFChek4Enabled)
+            {
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label style="margin-left:0px">
+                            <input asp-for="@Model.AppointmentUDFs.AppointmentUDF4Checked" /> @Model.UDFs.AppointmentUDFChek4Label
+                        </label>
+                    </div>
+                </div>
+            }
+            @if (Model.UDFs.AppointmentUDFChek5Enabled)
+            {
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label style="margin-left:0px">
+                            <input asp-for="@Model.AppointmentUDFs.AppointmentUDF5Checked" /> @Model.UDFs.AppointmentUDFChek5Label
+                        </label>
+                    </div>
+                </div>
+            }
+            @if (Model.UDFs.AppointmentUDFChek6Enabled)
+            {
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label style="margin-left:0px">
+                            <input asp-for="@Model.AppointmentUDFs.AppointmentUDF6Checked" /> @Model.UDFs.AppointmentUDFChek6Label
+                        </label>
+                    </div>
+                </div>
+            }
+            @if (Model.UDFs.AppointmentUDFChek7Enabled)
+            {
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label style="margin-left:0px">
+                            <input asp-for="@Model.AppointmentUDFs.AppointmentUDF7Checked" /> @Model.UDFs.AppointmentUDFChek7Label
+                        </label>
+                    </div>
+                </div>
+            }
+            @if (Model.UDFs.AppointmentUDFChek8Enabled)
+            {
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label style="margin-left:0px">
+                            <input asp-for="@Model.AppointmentUDFs.AppointmentUDF8Checked" /> @Model.UDFs.AppointmentUDFChek8Label
+                        </label>
+                    </div>
+                </div>
+            }
+            @if (Model.UDFs.AppointmentUDFChek9Enabled)
+            {
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label style="margin-left:0px">
+                            <input asp-for="@Model.AppointmentUDFs.AppointmentUDF9Checked" /> @Model.UDFs.AppointmentUDFChek9Label
+                        </label>
+                    </div>
+                </div>
+            }
+            @if (Model.UDFs.AppointmentUDFChek10Enabled)
+            {
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label style="margin-left:0px">
+                            <input asp-for="@Model.AppointmentUDFs.AppointmentUDF10Checked" /> @Model.UDFs.AppointmentUDFChek10Label
+                        </label>
+                    </div>
+                </div>
+            }
+
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+

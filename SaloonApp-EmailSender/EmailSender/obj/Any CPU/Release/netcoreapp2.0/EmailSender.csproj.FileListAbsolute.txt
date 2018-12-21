@@ -1,0 +1,12 @@
+D:\C#.Solutions\EmailSender\EmailSender\bin\Any CPU\Release\netcoreapp2.0\Settings.job
+D:\C#.Solutions\EmailSender\EmailSender\bin\Any CPU\Release\netcoreapp2.0\EmailSender.deps.json
+D:\C#.Solutions\EmailSender\EmailSender\bin\Any CPU\Release\netcoreapp2.0\EmailSender.runtimeconfig.json
+D:\C#.Solutions\EmailSender\EmailSender\bin\Any CPU\Release\netcoreapp2.0\EmailSender.runtimeconfig.dev.json
+D:\C#.Solutions\EmailSender\EmailSender\bin\Any CPU\Release\netcoreapp2.0\EmailSender.dll
+D:\C#.Solutions\EmailSender\EmailSender\bin\Any CPU\Release\netcoreapp2.0\EmailSender.pdb
+D:\C#.Solutions\EmailSender\EmailSender\obj\Any CPU\Release\netcoreapp2.0\EmailSender.csprojResolveAssemblyReference.cache
+D:\C#.Solutions\EmailSender\EmailSender\obj\Any CPU\Release\netcoreapp2.0\EmailSender.csproj.CoreCompileInputs.cache
+D:\C#.Solutions\EmailSender\EmailSender\obj\Any CPU\Release\netcoreapp2.0\EmailSender.AssemblyInfoInputs.cache
+D:\C#.Solutions\EmailSender\EmailSender\obj\Any CPU\Release\netcoreapp2.0\EmailSender.AssemblyInfo.cs
+D:\C#.Solutions\EmailSender\EmailSender\obj\Any CPU\Release\netcoreapp2.0\EmailSender.dll
+D:\C#.Solutions\EmailSender\EmailSender\obj\Any CPU\Release\netcoreapp2.0\EmailSender.pdb

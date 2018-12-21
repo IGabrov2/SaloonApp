@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SaloonApp.AppointmenDom.Domain\SaloonApp.AppointmenDom.Domain.csproj" />
+    <ProjectReference Include="..\SaloonApp.DB\SaloonApp.DB.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,24 @@
+D:\C#.Solutions\SaloonApp\SaloonApp
+--output-path=obj\Any CPU\Release\netcoreapp2.0\
+--application-name=SaloonApp
+--content-root=D:\C#.Solutions\SaloonApp\SaloonApp
+--file=D:\C#.Solutions\SaloonApp\SaloonApp\Views\Account\ConfirmEmail.cshtml
+--file=D:\C#.Solutions\SaloonApp\SaloonApp\Views\Account\Login.cshtml
+--file=D:\C#.Solutions\SaloonApp\SaloonApp\Views\Account\Register.cshtml
+--file=D:\C#.Solutions\SaloonApp\SaloonApp\Views\Account\Welcome.cshtml
+--file=D:\C#.Solutions\SaloonApp\SaloonApp\Views\Appointment\Apointments.cshtml
+--file=D:\C#.Solutions\SaloonApp\SaloonApp\Views\Appointment\CreateAppointment.cshtml
+--file=D:\C#.Solutions\SaloonApp\SaloonApp\Views\Appointment\CreateAppointmentOLD.cshtml
+--file=D:\C#.Solutions\SaloonApp\SaloonApp\Views\Home\About.cshtml
+--file=D:\C#.Solutions\SaloonApp\SaloonApp\Views\Home\Contact.cshtml
+--file=D:\C#.Solutions\SaloonApp\SaloonApp\Views\Home\Index.cshtml
+--file=D:\C#.Solutions\SaloonApp\SaloonApp\Views\Manage\AllUsers.cshtml
+--file=D:\C#.Solutions\SaloonApp\SaloonApp\Views\Manage\Index.cshtml
+--file=D:\C#.Solutions\SaloonApp\SaloonApp\Views\Manage\ManageUsersRoles.cshtml
+--file=D:\C#.Solutions\SaloonApp\SaloonApp\Views\Shared\Error.cshtml
+--file=D:\C#.Solutions\SaloonApp\SaloonApp\Views\Shared\_Layout.cshtml
+--file=D:\C#.Solutions\SaloonApp\SaloonApp\Views\Shared\_LoginPartial.cshtml
+--file=D:\C#.Solutions\SaloonApp\SaloonApp\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=D:\C#.Solutions\SaloonApp\SaloonApp\Views\UDF\SettingsUDF.cshtml
+--file=D:\C#.Solutions\SaloonApp\SaloonApp\Views\_ViewImports.cshtml
+--file=D:\C#.Solutions\SaloonApp\SaloonApp\Views\_ViewStart.cshtml

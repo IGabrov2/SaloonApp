@@ -1,0 +1,15 @@
+D:\C#.Solutions\SaloonApp\SaloonApp.Notification.Domain\bin\Release\netcoreapp2.0\SaloonApp.Notification.Domain.deps.json
+D:\C#.Solutions\SaloonApp\SaloonApp.Notification.Domain\bin\Release\netcoreapp2.0\SaloonApp.Notification.Domain.dll
+D:\C#.Solutions\SaloonApp\SaloonApp.Notification.Domain\bin\Release\netcoreapp2.0\SaloonApp.Notification.Domain.pdb
+D:\C#.Solutions\SaloonApp\SaloonApp.Notification.Domain\bin\Release\netcoreapp2.0\SaloonApp.Common.dll
+D:\C#.Solutions\SaloonApp\SaloonApp.Notification.Domain\bin\Release\netcoreapp2.0\SaloonApp.Email.Domain.dll
+D:\C#.Solutions\SaloonApp\SaloonApp.Notification.Domain\bin\Release\netcoreapp2.0\SaloonApp.UserDom.Domain.dll
+D:\C#.Solutions\SaloonApp\SaloonApp.Notification.Domain\bin\Release\netcoreapp2.0\SaloonApp.Email.Domain.pdb
+D:\C#.Solutions\SaloonApp\SaloonApp.Notification.Domain\bin\Release\netcoreapp2.0\SaloonApp.UserDom.Domain.pdb
+D:\C#.Solutions\SaloonApp\SaloonApp.Notification.Domain\bin\Release\netcoreapp2.0\SaloonApp.Common.pdb
+D:\C#.Solutions\SaloonApp\SaloonApp.Notification.Domain\obj\Release\netcoreapp2.0\SaloonApp.Notification.Domain.csprojResolveAssemblyReference.cache
+D:\C#.Solutions\SaloonApp\SaloonApp.Notification.Domain\obj\Release\netcoreapp2.0\SaloonApp.Notification.Domain.csproj.CoreCompileInputs.cache
+D:\C#.Solutions\SaloonApp\SaloonApp.Notification.Domain\obj\Release\netcoreapp2.0\SaloonApp.Notification.Domain.AssemblyInfoInputs.cache
+D:\C#.Solutions\SaloonApp\SaloonApp.Notification.Domain\obj\Release\netcoreapp2.0\SaloonApp.Notification.Domain.AssemblyInfo.cs
+D:\C#.Solutions\SaloonApp\SaloonApp.Notification.Domain\obj\Release\netcoreapp2.0\SaloonApp.Notification.Domain.dll
+D:\C#.Solutions\SaloonApp\SaloonApp.Notification.Domain\obj\Release\netcoreapp2.0\SaloonApp.Notification.Domain.pdb

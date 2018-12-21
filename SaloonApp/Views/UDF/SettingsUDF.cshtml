@@ -1,0 +1,228 @@
+﻿@model SaloonApp.UDF.Domain.AdminUDF
+
+@{
+    ViewData["Title"] = "SettingsUDF";
+}
+
+<h2>User Defined Fields</h2>
+
+@if (Model.Male)
+{
+    <h4><b>Male</b>. Go to <a href="http://app1-74.apphb.com/UDF/Index?m=false">Female</a></h4>;
+}
+else
+{
+    <h4><b>Female</b>. Go to <a href="http://app1-74.apphb.com/UDF/Index?m=true">Male</a></h4>;
+}
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="UpdateUDF">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="AppointmentUDFChek1Label" class="control-label">UDF 1 Label</label>
+                <input asp-for="AppointmentUDFChek1Label" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek1Label" class="text-danger"></span>
+
+                <label asp-for="AppointmentUDFChek1Amount" class="control-label">UDF 1 Amount</label>
+                <input asp-for="AppointmentUDFChek1Amount" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek1Amount" class="text-danger"></span>
+
+                <label asp-for="AppointmentUDFChek1Time" class="control-label">UDF 1 Time</label>
+                <input asp-for="AppointmentUDFChek1Time" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek1Time" class="text-danger"></span>
+
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="AppointmentUDFChek1Enabled" /> Enable
+                    </label>
+                </div>
+            </div>
+            <hr>
+            <div class="form-group">
+                <label asp-for="AppointmentUDFChek2Label" class="control-label">UDF 2 Label</label>
+                <input asp-for="AppointmentUDFChek2Label" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek2Label" class="text-danger"></span>
+
+                <label asp-for="AppointmentUDFChek2Amount" class="control-label">UDF 2 Amount</label>
+                <input asp-for="AppointmentUDFChek2Amount" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek2Amount" class="text-danger"></span>
+
+                <label asp-for="AppointmentUDFChek2Time" class="control-label">UDF 3 Time</label>
+                <input asp-for="AppointmentUDFChek2Time" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek2Time" class="text-danger"></span>
+
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="AppointmentUDFChek2Enabled" /> Enable
+                    </label>
+                </div>
+            </div>
+            <hr>
+            <div class="form-group">
+                <label asp-for="AppointmentUDFChek3Label" class="control-label">UDF 3 Label</label>
+                <input asp-for="AppointmentUDFChek3Label" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek3Label" class="text-danger"></span>
+
+                <label asp-for="AppointmentUDFChek3Amount" class="control-label">UDF 3 Amount</label>
+                <input asp-for="AppointmentUDFChek3Amount" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek3Amount" class="text-danger"></span>
+
+                <label asp-for="AppointmentUDFChek3Time" class="control-label">UDF 3 Time</label>
+                <input asp-for="AppointmentUDFChek3Time" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek3Time" class="text-danger"></span>
+
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="AppointmentUDFChek3Enabled" /> Enable
+                    </label>
+                </div>
+            </div>
+            <hr>
+            <div class="form-group">
+                <label asp-for="AppointmentUDFChek4Label" class="control-label">UDF 4 Label</label>
+                <input asp-for="AppointmentUDFChek4Label" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek4Label" class="text-danger"></span>
+
+                <label asp-for="AppointmentUDFChek4Amount" class="control-label">UDF 4 Amount</label>
+                <input asp-for="AppointmentUDFChek4Amount" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek4Amount" class="text-danger"></span>
+
+                <label asp-for="AppointmentUDFChek4Time" class="control-label">UDF 4 Time</label>
+                <input asp-for="AppointmentUDFChek4Time" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek3Time" class="text-danger"></span>
+
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="AppointmentUDFChek4Enabled" /> Enable
+                    </label>
+                </div>
+            </div>
+            <hr>
+            <div class="form-group">
+                <label asp-for="AppointmentUDFChek5Label" class="control-label">UDF 5 Label</label>
+                <input asp-for="AppointmentUDFChek5Label" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek5Label" class="text-danger"></span>
+
+                <label asp-for="AppointmentUDFChek5Amount" class="control-label">UDF 5 Amount</label>
+                <input asp-for="AppointmentUDFChek5Amount" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek5Amount" class="text-danger"></span>
+
+                <label asp-for="AppointmentUDFChek5Time" class="control-label">UDF 5 Time</label>
+                <input asp-for="AppointmentUDFChek5Time" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek5Time" class="text-danger"></span>
+
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="AppointmentUDFChek5Enabled" /> Enable
+                    </label>
+                </div>
+            </div>
+            <hr>
+            <div class="form-group">
+                <label asp-for="AppointmentUDFChek6Label" class="control-label">UDF 6 Label</label>
+                <input asp-for="AppointmentUDFChek6Label" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek6Label" class="text-danger"></span>
+
+                <label asp-for="AppointmentUDFChek6Amount" class="control-label">UDF 6 Amount</label>
+                <input asp-for="AppointmentUDFChek6Amount" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek6Amount" class="text-danger"></span>
+
+                <label asp-for="AppointmentUDFChek6Time" class="control-label">UDF 6 Time</label>
+                <input asp-for="AppointmentUDFChek6Time" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek6Time" class="text-danger"></span>
+
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="AppointmentUDFChek6Enabled" /> Enable
+                    </label>
+                </div>
+            </div>
+            <hr>
+            <div class="form-group">
+                <label asp-for="AppointmentUDFChek7Label" class="control-label">UDF 7 Label</label>
+                <input asp-for="AppointmentUDFChek7Label" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek7Label" class="text-danger"></span>
+
+                <label asp-for="AppointmentUDFChek7Amount" class="control-label">UDF 7 Amount</label>
+                <input asp-for="AppointmentUDFChek7Amount" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek7Amount" class="text-danger"></span>
+
+                <label asp-for="AppointmentUDFChek7Time" class="control-label">UDF 7 Time</label>
+                <input asp-for="AppointmentUDFChek7Time" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek7Time" class="text-danger"></span>
+
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="AppointmentUDFChek7Enabled" /> Enable
+                    </label>
+                </div>
+            </div>
+            <hr>
+            <div class="form-group">
+                <label asp-for="AppointmentUDFChek8Label" class="control-label">UDF 8 Label</label>
+                <input asp-for="AppointmentUDFChek8Label" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek8Label" class="text-danger"></span>
+
+                <label asp-for="AppointmentUDFChek8Amount" class="control-label">UDF 8 Amount</label>
+                <input asp-for="AppointmentUDFChek8Amount" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek8Amount" class="text-danger"></span>
+
+                <label asp-for="AppointmentUDFChek8Time" class="control-label">UDF 8 Time</label>
+                <input asp-for="AppointmentUDFChek8Time" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek8Time" class="text-danger"></span>
+
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="AppointmentUDFChek8Enabled" /> Enable
+                    </label>
+                </div>
+            </div>
+            <hr>
+            <div class="form-group">
+                <label asp-for="AppointmentUDFChek9Label" class="control-label">UDF 9 Label</label>
+                <input asp-for="AppointmentUDFChek9Label" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek9Label" class="text-danger"></span>
+
+                <label asp-for="AppointmentUDFChek9Amount" class="control-label">UDF 9 Amount</label>
+                <input asp-for="AppointmentUDFChek9Amount" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek9Amount" class="text-danger"></span>
+
+                <label asp-for="AppointmentUDFChek9Time" class="control-label">UDF 9 Time</label>
+                <input asp-for="AppointmentUDFChek9Time" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek9Time" class="text-danger"></span>
+
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="AppointmentUDFChek9Enabled" /> Enable
+                    </label>
+                </div>
+            </div>
+            <hr>
+            <div class="form-group">
+                <label asp-for="AppointmentUDFChek10Label" class="control-label">UDF 10 Label</label>
+                <input asp-for="AppointmentUDFChek10Label" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek10Label" class="text-danger"></span>
+
+                <label asp-for="AppointmentUDFChek10Amount" class="control-label">UDF 10 Amount</label>
+                <input asp-for="AppointmentUDFChek10Amount" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek10Amount" class="text-danger"></span>
+
+                <label asp-for="AppointmentUDFChek10Time" class="control-label">UDF 10 Time</label>
+                <input asp-for="AppointmentUDFChek10Time" class="form-control" style="background-color:white; width: 200px;" />
+                <span asp-validation-for="AppointmentUDFChek10Time" class="text-danger"></span>
+
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="AppointmentUDFChek10Enabled" /> Enable
+                    </label>
+                </div>
+            </div>
+            <hr>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+

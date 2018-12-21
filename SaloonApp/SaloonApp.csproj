@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <UserSecretsId>aspnet-SaloonApp-C0426F69-20EE-4E58-801B-AF1AFCE8FE60</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Properties\PublishProfiles\SaloonApp - Web Deploy.pubxml" />
+    <None Remove="Properties\PublishProfiles\SaloonApp20180227124641 - Web Deploy.pubxml" />
+    <None Remove="Properties\PublishProfiles\SaloonAsq - Web Deploy.pubxml" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.2" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.1" />
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.0" />
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SaloonApp.AppointmentService\SaloonApp.AppointmentService.csproj" />
+    <ProjectReference Include="..\SaloonApp.Common\SaloonApp.Common.csproj" />
+    <ProjectReference Include="..\SaloonApp.DB\SaloonApp.DB.csproj" />
+    <ProjectReference Include="..\SaloonApp.Notification.Domain\SaloonApp.Notification.Domain.csproj" />
+    <ProjectReference Include="..\SaloonApp.NotificationService\SaloonApp.NotificationService.csproj" />
+    <ProjectReference Include="..\SaloonApp.UDF\SaloonApp.UDF.csproj" />
+    <ProjectReference Include="..\SaloonApp.User.Domain\SaloonApp.UserDom.Domain.csproj" />
+    <ProjectReference Include="..\SaloonApp.UserService\SaloonApp.UserService.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+
+</Project>

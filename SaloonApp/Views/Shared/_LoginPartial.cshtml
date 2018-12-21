@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="~/css/login-register.css">
+<link rel="stylesheet" href="~/css/site.css">
+@if (ViewData["IsSignedIn"] != null && (bool)ViewData["IsSignedIn"] != false)
+{
+    <form asp-area="" asp-controller="Account" asp-action="Logout" method="post" id="logoutForm" class="navbar-right">
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a asp-area="" asp-controller="Manage" asp-action="Index" title="Manage">Hello @ViewData["UserName"]!</a>
+            </li>
+            <li>
+                <a asp-area="" asp-controller="Account" asp-action="Logout" title="Manage">Log out!</a>
+            </li>
+        </ul>
+    </form>
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right" style="font-size:medium">
+        <li><a asp-area="" asp-controller="Account" asp-action="Register">Register</a></li>
+        <li><a asp-area="" asp-controller="Account" asp-action="Login" method="post">Log in</a></li>
+    </ul>
+}

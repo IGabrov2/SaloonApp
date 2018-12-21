@@ -1,0 +1,85 @@
+﻿<script>
+    function myfunction() {
+        var date = $('#party').val().split('-');
+        var year = date[0];
+        var month = date[1];
+        var day = date[2];
+        var a = month + "/" + day + "/" + year;
+        var b = 'http://app1-74.apphb.com/Manage/Index?date=' + a;
+        window.location.href = b;
+    }
+</script>
+@model SaloonApp.DTOs.FreeTimes
+@{
+    ViewData["Title"] = "Manage";
+}
+<style>
+
+    a {
+        text-decoration: none !important;
+    }
+
+    ul > li {
+        list-style: none !important;
+    }
+</style>
+<body>
+    <link rel="stylesheet" type="text/css" href="~/css/ManageIndex.css">
+    <div style="text-align:center;">
+        <h1 class="theMonkiesAteMySoul" style="color: #222222">
+            <b>Welcome back, @ViewData["UserName"]</b>
+        </h1>
+        <h4 class="theMonkiesAteMySoul" style="color: #222222">
+            <b>This is your personal admin page</b>
+        </h4>
+        <input id="party" type="date" name="partydate" required>
+        <span class="btn" style="background-color:#222222; border-radius:20px; margin-bottom:5px;" onclick="myfunction()"><k style=" color:#fff">GO</k></span><br>
+        <h4>@Model.ForDate.Day/@Model.ForDate.Month/@Model.ForDate.Year</h4>
+    </div>
+    <nav class="" style="float:left">
+        <h1 class="navheader slide-trigger">Menu</h1>
+        <ul class="navigation group">
+            <li><a href="http://app1-74.apphb.com/Manage/AllUsers">Users</a></li>
+            <li><a href="http://app1-74.apphb.com/Appointment/GroupByUser">My Appointments</a></li>
+            <li><a href="http://app1-74.apphb.com/Manage/ManageUsersRoles">User Roles</a></li>
+            <li><a href="http://app1-74.apphb.com/Appointment/AllAppointments">All Appointments</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div>
+        @{
+            var a = Model.OpenHours.Count / 6;
+            var y = 0;
+        }
+        @for (int i = 0; i <= a; i++)
+        {
+            <table style="margin-left:5px; float:left;">
+                <tbody>
+                    <tr class="row100 body">
+                        <th class="cell100 column1">
+                            @if (i == 0)
+                            {
+                                <h3 style="color:#222222">Open Hours</h3>
+                            }
+                            else
+                            {
+                                <h3 style="color:#222222"><br></h3>
+                            }
+                        </th>
+                    </tr>
+                    @for (int br = 0; br < 6; y++, br++)
+                    {
+                        if (y == Model.OpenHours.Count) { break; }
+
+                        <tr>
+                            <td class="btn" style="background-color:#222222; border-radius:20px; margin-bottom:5px;"><a href="http://app1-74.apphb.com/Appointment/ConstructAppointment?Time=@Model.OpenHours[y]&ForDate=@Model.ForDate" style=" color:#fff;">@Model.OpenHours[y]</a></td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        }
+    </div>
+
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+</body>

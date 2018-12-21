@@ -1,0 +1,88 @@
+﻿@*@model SaloonApp.DTOs.CreateAppointmentEntry
+@{
+    ViewData["Title"] = "CreateAppointmentNew";
+}
+
+<h2>Create Appointment</h2>
+
+<h4>@Model.Date.Day/@Model.Date.Month/@Model.Date.Year</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CreateAppointmentFromUser">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                @for (int i = 0; i < Model.Hours.Count; i++)
+                {
+                    <span class="btn" style="background-color:#222222; border-radius:20px; margin-bottom:5px;color:#fff">
+                        @Html.RadioButtonFor(model => model.SelectedHour, Model.Hours[i] + " " + Model.Date.Date)
+                        @Model.Hours[i]
+                    </span>
+                }
+                @if (Model.UDFs.AppointmentUDFChek1Enabled)
+                {
+                    <div class="form-group">
+                        <div class="checkbox">
+                            <label>
+                                <input asp-for="Male" /> @Html.DisplayNameFor(model => model.Male)
+                            </label>
+
+                            <label style="margin-left:57px">
+                                <input asp-for="HairCut" /> @Model.UDFs.AppointmentUDFChek1Label
+                            </label>
+                        </div>
+                    </div>
+                }
+
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Dying" /> @Html.DisplayNameFor(model => model.Dying)
+                    </label>
+
+                    <label style="margin-left:51px">
+                        <input asp-for="Washing" /> @Html.DisplayNameFor(model => model.Washing)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Hairstyle" /> @Html.DisplayNameFor(model => model.Hairstyle)
+                    </label>
+
+                    <label style="margin-left:33px">
+                        <input asp-for="Blowing" /> @Html.DisplayNameFor(model => model.Blowing)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="PartialDying" /> @Html.DisplayNameFor(model => model.PartialDying)
+                    </label>
+
+                    <label style="margin-left:12px">
+                        <input asp-for="Manicure" /> @Html.DisplayNameFor(model => model.Manicure)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Pedicure" /> @Html.DisplayNameFor(model => model.Pedicure)
+                    </label>
+
+                    <label style="margin-left:32px">
+                        <input asp-for="MakeUp" /> @Html.DisplayNameFor(model => model.MakeUp)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>*@
+

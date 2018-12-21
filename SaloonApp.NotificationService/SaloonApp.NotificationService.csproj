@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SaloonApp.DB\SaloonApp.DB.csproj" />
+    <ProjectReference Include="..\SaloonApp.Email.Domain\SaloonApp.Email.Domain.csproj" />
+    <ProjectReference Include="..\SaloonApp.Notification.Domain\SaloonApp.Notification.Domain.csproj" />
+    <ProjectReference Include="..\SaloonApp.User.Domain\SaloonApp.UserDom.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,61 @@
+﻿@model IEnumerable<SaloonApp.UserDom.Domain.Models.User>
+
+@{
+    ViewData["Title"] = "ManageUsers";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Role
+            </th>
+            <th>
+                Date Created
+            </th>
+            <th>
+                Confirmed Email
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FullName)
+                    <br />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                    <br />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TypeOfUser)
+                    <br />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateCreated)
+                    <br />
+                </td>
+                <td>
+                    @if (item.IsEmailConfirmed == true)
+                    {
+                        <span>Yes</span>
+                    }
+                    else
+                    {
+                        <span>No</span>
+                    }
+                    <br />
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

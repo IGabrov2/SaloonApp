@@ -1,0 +1,5 @@
+D:\C#.Solutions\SaloonApp\SaloonApp.User.Domain\bin\Debug\netcoreapp2.0\SaloonApp.Common.dll
+D:\C#.Solutions\SaloonApp\SaloonApp.User.Domain\obj\Debug\netcoreapp2.0\SaloonApp.User.Domain.csprojResolveAssemblyReference.cache
+D:\C#.Solutions\SaloonApp\SaloonApp.User.Domain\obj\Debug\netcoreapp2.0\SaloonApp.User.Domain.csproj.CoreCompileInputs.cache
+D:\C#.Solutions\SaloonApp\SaloonApp.User.Domain\obj\Debug\netcoreapp2.0\SaloonApp.User.Domain.AssemblyInfoInputs.cache
+D:\C#.Solutions\SaloonApp\SaloonApp.User.Domain\obj\Debug\netcoreapp2.0\SaloonApp.User.Domain.AssemblyInfo.cs

@@ -1,0 +1,10 @@
+D:\C#.Solutions\SaloonApp\EmailSender\bin\Debug\netcoreapp2.0\EmailSender.deps.json
+D:\C#.Solutions\SaloonApp\EmailSender\bin\Debug\netcoreapp2.0\EmailSender.runtimeconfig.json
+D:\C#.Solutions\SaloonApp\EmailSender\bin\Debug\netcoreapp2.0\EmailSender.runtimeconfig.dev.json
+D:\C#.Solutions\SaloonApp\EmailSender\bin\Debug\netcoreapp2.0\EmailSender.dll
+D:\C#.Solutions\SaloonApp\EmailSender\bin\Debug\netcoreapp2.0\EmailSender.pdb
+D:\C#.Solutions\SaloonApp\EmailSender\obj\Debug\netcoreapp2.0\EmailSender.csproj.CoreCompileInputs.cache
+D:\C#.Solutions\SaloonApp\EmailSender\obj\Debug\netcoreapp2.0\EmailSender.AssemblyInfoInputs.cache
+D:\C#.Solutions\SaloonApp\EmailSender\obj\Debug\netcoreapp2.0\EmailSender.AssemblyInfo.cs
+D:\C#.Solutions\SaloonApp\EmailSender\obj\Debug\netcoreapp2.0\EmailSender.dll
+D:\C#.Solutions\SaloonApp\EmailSender\obj\Debug\netcoreapp2.0\EmailSender.pdb

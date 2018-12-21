@@ -1,0 +1,9 @@
+D:\C#.Solutions\SaloonApp\SaloonApp.Common\bin\Release\netcoreapp2.0\SaloonApp.Common.deps.json
+D:\C#.Solutions\SaloonApp\SaloonApp.Common\bin\Release\netcoreapp2.0\SaloonApp.Common.dll
+D:\C#.Solutions\SaloonApp\SaloonApp.Common\bin\Release\netcoreapp2.0\SaloonApp.Common.pdb
+D:\C#.Solutions\SaloonApp\SaloonApp.Common\obj\Release\netcoreapp2.0\SaloonApp.Common.csprojResolveAssemblyReference.cache
+D:\C#.Solutions\SaloonApp\SaloonApp.Common\obj\Release\netcoreapp2.0\SaloonApp.Common.csproj.CoreCompileInputs.cache
+D:\C#.Solutions\SaloonApp\SaloonApp.Common\obj\Release\netcoreapp2.0\SaloonApp.Common.AssemblyInfoInputs.cache
+D:\C#.Solutions\SaloonApp\SaloonApp.Common\obj\Release\netcoreapp2.0\SaloonApp.Common.AssemblyInfo.cs
+D:\C#.Solutions\SaloonApp\SaloonApp.Common\obj\Release\netcoreapp2.0\SaloonApp.Common.dll
+D:\C#.Solutions\SaloonApp\SaloonApp.Common\obj\Release\netcoreapp2.0\SaloonApp.Common.pdb

@@ -1,0 +1,38 @@
+﻿@model SaloonApp.DTOs.ManageUserEntry
+@{
+    ViewData["Title"] = "Mange";
+}
+<h2><b>Manage your users</b></h2>
+<div class="register-form-1">
+    <!-- START: register-form -->
+            <form method="post">
+                <div class="form-container col-sm-10">
+                    <div class="form-group">
+                        <span asp-validation-for="Email" class="">Email</span>
+                        <input type="email" placeholder="email" asp-for="Email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <span asp-validation-for="Email" class="">User Type</span>
+                        <select asp-for="TypeOfUser" class="form-control" id="sel1">
+                            <option value="3">Customer</option>
+                            <option value="2">Worker</option>
+                            <option value="1">Admin</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <span asp-validation-for="PictureURL" class="">Picture URL</span>
+                        <input type="text" placeholder="Picture URL" asp-for="PictureURL" class="form-control">
+                    </div>
+
+                    <!--Button GO-->
+                    <div class="form-group">
+                        <input type="submit" class="register-button" value="GO" [disabled]="!reactiveForm.valid" /> <br>@ViewData["Success"]
+                    </div>
+                </div>
+            </form>
+    <!-- END: register-form -->
+</div>
+<br>
+<br>
+<br>
+<br>

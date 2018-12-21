@@ -1,0 +1,50 @@
+﻿<script src="~/js/ResizerAppointmentsTabs.js"></script>
+
+@model IEnumerable<SaloonApp.AppointmentDom.Domain.Models.Appointment>
+@{
+    ViewData["Title"] = "Appointmets";
+}
+
+<div style=" margin-top:10px;margin-left:40%">
+    <br>
+    <input id="party" type="date" name="partydate" required style="float:left; margin-top:5px;margin-right:10px">
+    <span class="btn" style="background-color:#222222; border-radius:20px; margin-bottom:5px;" onclick="myfunction()"><k style=" color:#fff">GO</k></span><br>
+    <h4>@ViewData["Date"]</h4>
+</div>
+<link rel="stylesheet" type="text/css" href="~/css/Appointment.css">
+<div class="table100 ver3 m-b-110" id="targetWidth">
+    <div class="table100-body js-pscroll" id="resize">
+        <table>
+            <tbody>
+                <tr class="row100 body" style="height:30px;">
+                    <th class="cell100 column1"><a href="http://app1-74.apphb.com/Appointment/SortBy?sortColumn=1" style="padding-left:0px"><span class="glyphicon glyphicon-list-alt"></span></a></th>
+                    <th class="cell100 column2"><a href="http://app1-74.apphb.com/Appointment/SortBy?sortColumn=2" style="padding-left:0px"><span class="glyphicon glyphicon-user"></span></a></th>
+                    <th class="cell100 column3"><a href="http://app1-74.apphb.com/Appointment/SortBy?sortColumn=3" style="padding-left:0px"><span class="glyphicon glyphicon-time"></span></a></th>
+                    <th class="cell100 column4"><a href="http://app1-74.apphb.com/Appointment/SortBy?sortColumn=4" style="padding-left:0px"><span class="glyphicon glyphicon-usd"></span></a></th>
+                    <th class="cell100 column5"><a href="http://app1-74.apphb.com/Appointment/SortBy?sortColumn=5" style="padding-left:0px"><span class="glyphicon glyphicon-tasks"></span></a></th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr class="row100 body">
+                        <td class="cell100 column1"><a style="padding-left:0px" href="http://app1-74.apphb.com/Appointment/EditAppointment?Id=@item.IdAppointment"><span class="glyphicon glyphicon-edit"></span></a></td>
+                        <td class="cell100 column2"><a href="http://app1-74.apphb.com/Appointment/GroupByUser?userID=@item.HairDresser.Id&date=@item.AppointmentHour.Date" style="padding-left:0px;color:#808080;text-decoration:underline dotted;">@Html.DisplayFor(modelItem => item.HairDresserName)</a></td>
+                        <td class="cell100 column3">@Html.DisplayFor(modelItem => item.AppointmentDrutation)</td>
+                        <td class="cell100 column4">@Html.DisplayFor(modelItem => item.BillingAmmount)</td>
+                        <td class="cell100 column5">@Html.DisplayFor(modelItem => item.AppointmentUDFStr)</td>
+                        @if (ViewData["IsOne"] != null && (bool)ViewData["IsOne"] == true)
+                        {
+                            <td class="cell100 column6">
+                                <a class="btn btn-primary" href="http://app1-74.apphb.com/Appointment/Delete?IdAppointment=@item.IdAppointment">
+                                    <span class="glyphicon glyphicon-remove"></span>
+                                </a>
+                            </td>
+                        }
+                    </tr>
+
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+

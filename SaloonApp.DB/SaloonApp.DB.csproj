@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SaloonApp.AppointmenDom.Domain\SaloonApp.AppointmenDom.Domain.csproj" />
+    <ProjectReference Include="..\SaloonApp.Email.Domain\SaloonApp.Email.Domain.csproj" />
+    <ProjectReference Include="..\SaloonApp.UDF.Domain\SaloonApp.UDF.Domain.csproj" />
+    <ProjectReference Include="..\SaloonApp.User.Domain\SaloonApp.UserDom.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.EntityFrameworkCore">
+      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.entityframeworkcore\2.0.1\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

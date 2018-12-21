@@ -1,0 +1,9 @@
+D:\C#.Solutions\SaloonApp\SaloonApp.UDF.Domain\bin\Release\netcoreapp2.0\SaloonApp.UDF.Domain.deps.json
+D:\C#.Solutions\SaloonApp\SaloonApp.UDF.Domain\bin\Release\netcoreapp2.0\SaloonApp.UDF.Domain.dll
+D:\C#.Solutions\SaloonApp\SaloonApp.UDF.Domain\bin\Release\netcoreapp2.0\SaloonApp.UDF.Domain.pdb
+D:\C#.Solutions\SaloonApp\SaloonApp.UDF.Domain\obj\Release\netcoreapp2.0\SaloonApp.UDF.Domain.csprojResolveAssemblyReference.cache
+D:\C#.Solutions\SaloonApp\SaloonApp.UDF.Domain\obj\Release\netcoreapp2.0\SaloonApp.UDF.Domain.csproj.CoreCompileInputs.cache
+D:\C#.Solutions\SaloonApp\SaloonApp.UDF.Domain\obj\Release\netcoreapp2.0\SaloonApp.UDF.Domain.AssemblyInfoInputs.cache
+D:\C#.Solutions\SaloonApp\SaloonApp.UDF.Domain\obj\Release\netcoreapp2.0\SaloonApp.UDF.Domain.AssemblyInfo.cs
+D:\C#.Solutions\SaloonApp\SaloonApp.UDF.Domain\obj\Release\netcoreapp2.0\SaloonApp.UDF.Domain.dll
+D:\C#.Solutions\SaloonApp\SaloonApp.UDF.Domain\obj\Release\netcoreapp2.0\SaloonApp.UDF.Domain.pdb
